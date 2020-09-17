@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  position: relativa;
+  width: 200px;
+  border: 1px solid black;
+  margin: 2px;
+  padding: 3px;
+}
+
+.card button {
+  margin: 0;
+  position: relative;
+  left: 68px;
+  font-size: 1.1rem;  
+}
+
+.titulo {
+  color: tomato;
+  padding: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.card .img {
+  width: 180px;
+  height: 150px;
+}
+
+.precio {
+  color: tomato;
+  text-align: center;
+}
+.precio::before {
+  content: "$";
+}
